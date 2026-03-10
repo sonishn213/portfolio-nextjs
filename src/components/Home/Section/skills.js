@@ -1,11 +1,11 @@
 export default function Skills() {
     return (
-        <section className="skills-section style-2" id="skills-section">
+        <section className="skills-section style-2 pt-4 pb-5" id="skills-section">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="section-header style-2 text-center">
-                            <h2 className="title wow fadeInUp" data-wow-delay=".3s">My Skills</h2>
+                            <h2 className="section-title wow fadeInUp" data-wow-delay=".3s">My Skills</h2>
                             <p className="wow fadeInUp" data-wow-delay=".4s">
                                 We put your ideas and thus your wishes in the form of a unique web project that inspires you and
                                 you customers.

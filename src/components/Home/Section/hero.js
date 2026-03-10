@@ -1,4 +1,6 @@
+
 export default function Hero() {
+
     return (<section className="hero-section style-2 d-flex align-items-center" id="intro">
         <div className="container">
             <div className="row">
@@ -17,9 +19,9 @@ export default function Hero() {
                                 <br />Currently transitioning to Java Spring Boot with security, APIs.
                             </p>
                             <div className="button-box d-flex flex-wrap align-items-center">
-                                <a href="#" className="tj-btn-primary-2 ">
-                                    PROJECTS
-                                    <i class="fa-regular fa-arrow-down-long "></i>
+                                <a href="#works-section" className="tj-btn-primary-2 ">
+                                    VIEW PROJECTS
+                                    <i className="fa-regular fa-arrow-down-long "></i>
 
                                 </a>
                                 <ul className="ul-reset social-icons style-2">
@@ -30,7 +32,7 @@ export default function Hero() {
                                         <a href="#"><i className="fa-light fa-basketball"></i></a>
                                     </li> */}
                                     <li>
-                                        <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/shwanees213"><i className="fa-brands fa-linkedin-in"></i></a>
                                     </li>
                                     {/* <li>
                                         <a href="#"><i className="fa-brands fa-github"></i></a>
@@ -62,15 +64,15 @@ export default function Hero() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5">
+                            <div className="col-lg-5" id="contact">
                                 <div className="about-right-content  wow fadeInUp h-100" data-wow-delay=".5s">
                                     <div className="about-text">
-                                        <h5 className="title"><i class="fa-solid fa-phone me-2"></i> Mobile</h5>
+                                        <h5 className="title"><i className="fa-solid fa-phone me-2"></i> Mobile</h5>
                                         <p>
                                             <a href="tel:+919632340567" className="alink">+91 9632340567</a>
                                         </p>
 
-                                        <h5 className="title"><i class="fa-solid fa-envelope me-2"></i> Email</h5>
+                                        <h5 className="title"><i className="fa-solid fa-envelope me-2"></i> Email</h5>
                                         <p>
                                             <a href="mailto:sonishn213@gmail.com" className="alink">sonishn213@gmail.com</a>
                                         </p>
