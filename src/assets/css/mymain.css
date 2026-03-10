@@ -1,0 +1,8 @@
+a.alink {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.alink:hover {
+    text-decoration: underline;
+}

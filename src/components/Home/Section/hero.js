@@ -8,33 +8,33 @@ export default function Hero() {
                             <img src="assets/img/hero/hero-2.png" alt="" />
                         </div>
                         <div className="hero-content-box">
-                            <h1 className="hero-title">Hi, I am Web <br />Developer + UX Designer</h1>
+                            <h1 className="hero-title">Hi, Im Shwaneesh - Backend Developer</h1>
                             <div className="hero-image-box d-md-none text-center">
                                 <img src="assets/img/hero/me.png" alt="" />
                             </div>
-                            <p className="lead">I design and code beautifully simple things and i love what i do. Just simple
-                                like that!</p>
+                            <p className="lead">
+                                Backend developer experienced in scalable systems, payment integrations, and CMS platforms using Laravel.
+                                <br />Currently transitioning to Java Spring Boot with security, APIs.
+                            </p>
                             <div className="button-box d-flex flex-wrap align-items-center">
-                                <a href="#" className="tj-btn-primary-2">
-                                    Hire me!
-                                    <span className="icon_box">
-                                        <i className="fa-regular fa-arrow-right icon_first"></i>
-                                        <i className="fa-regular fa-arrow-right icon_second"></i>
-                                    </span>
+                                <a href="#" className="tj-btn-primary-2 ">
+                                    PROJECTS
+                                    <i class="fa-regular fa-arrow-down-long "></i>
+
                                 </a>
                                 <ul className="ul-reset social-icons style-2">
-                                    <li>
+                                    {/* <li>
                                         <a href="#"><i className="fa-brands fa-twitter"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i className="fa-light fa-basketball"></i></a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#"><i className="fa-brands fa-github"></i></a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -43,41 +43,37 @@ export default function Hero() {
                     <div className="about-area">
                         <div className="row">
                             <div className="col-lg-7">
-                                <div className="about-left-content  wow fadeInUp" data-wow-delay=".3s">
-                                    <h2 className="title">Achievements in my professional life.</h2>
-                                    <div className="desc">
-                                        <p className="lead">
-                                            Since beginning my journey as a freelance designer nearly 8 years ago, I've done
-                                            remote work for agencies,
-                                            consulted for startups, and collaborated with talented people to create digital
-                                            products for both business and
-                                            consumer use.
+                                <div className="about-right-content wow fadeInUp h-100 pb-4" data-wow-delay=".3s">
+                                    <div className="about-text">
+                                        <h5 className="title">Experience</h5>
+                                        <p>
+                                            Full Stack Developer | Laravel | Nuxtjs (3 years)
                                         </p>
-                                    </div>
-                                    <div className="about-button d-flex">
-                                        <a href="#" className="btn tj-btn-primary-2">Contact Me
-                                            <span className="icon_box">
-                                                <i className="fa-regular fa-arrow-right icon_first"></i>
-                                                <i className="fa-regular fa-arrow-right icon_second"></i>
-                                            </span>
-                                        </a>
+
+                                        <h5 className="title">Education</h5>
+                                        <p>
+                                            Bachelor of Computer Applications (2018 - 2021)
+                                        </p>
+
+                                        <h5 className="title">Skills</h5>
+                                        <p>
+                                            Java, Spring boot, Rest Api, Microservice, docker, MySql, Javascript, Vue.js
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-5">
-                                <div className="about-right-content  wow fadeInUp" data-wow-delay=".5s">
+                                <div className="about-right-content  wow fadeInUp h-100" data-wow-delay=".5s">
                                     <div className="about-text">
-                                        <h5 className="title">Interface Designer</h5>
-                                        <div className="desc">
-                                            <p>
-                                                As a UI designer, I work closely with clients to understand their needs and goals
-                                                for their software or
-                                                website.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="about-images">
-                                        <img src="assets/img/hero/about-1.png" alt="Images" />
+                                        <h5 className="title"><i class="fa-solid fa-phone me-2"></i> Mobile</h5>
+                                        <p>
+                                            <a href="tel:+919632340567" className="alink">+91 9632340567</a>
+                                        </p>
+
+                                        <h5 className="title"><i class="fa-solid fa-envelope me-2"></i> Email</h5>
+                                        <p>
+                                            <a href="mailto:sonishn213@gmail.com" className="alink">sonishn213@gmail.com</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
