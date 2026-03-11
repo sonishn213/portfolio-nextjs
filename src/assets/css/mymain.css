@@ -6,3 +6,14 @@ a.alink {
 a.alink:hover {
     text-decoration: underline;
 }
+
+.project-content-area .project-wrapper.width-40 {
+    width: 40%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .project-content-area .project-wrapper.width-40 {
+        width: 100%;
+    }
+}

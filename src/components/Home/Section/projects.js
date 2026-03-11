@@ -54,7 +54,7 @@ export default function Projects() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="project-wrapper" style={{ width: "40%" }}>
+                            <div className="project-wrapper width-40" >
 
                                 <img src="assets/images/spring-bg.png" alt="Images" />
                                 {/* <img src="assets/img/project/project-2.png" alt="Images" /> */}
