@@ -15,7 +15,7 @@ export default function Projects() {
                         <div className="project-content-area featured wow fadeInUp" data-wow-delay=".5s">
                             <div className="project-left-content">
                                 <div className="project_content">
-                                    {/* <span className="subtitle">Social App</span> */}
+                                    <span className="subtitle mb-1">1 of 4</span>
                                     <h3 className="title">Expense Tracker REST API</h3>
                                     <ul className="project_tags my-3">
                                         <li><a href="#">Java</a></li>
@@ -26,33 +26,48 @@ export default function Projects() {
                                         <li><a href="#">Apache POI</a></li>
                                     </ul>
 
-                                    <p className="desc">
-                                        Designed a Spring Boot backend REST API to manage personal financial data.
-                                    </p>
-
-                                    <p className="desc"><strong>Key Features:</strong></p>
-                                    <ul>
-                                        <li>Built APIs for expenses and categories.</li>
+                                    <ul class="mt-1">
+                                        <li>APIs for expenses and categories.</li>
                                         <li>Authentication with Spring Security and JWT.</li>
                                         <li>Excel import/export using Apache POI.</li>
                                         <li>Email report delivery.</li>
                                         <li>Scheduled automated reports with Spring Scheduler.</li>
                                         <li>Used layered architecture (controller, service, repository).</li>
                                     </ul>
+
+                                    <div className="button-box d-flex flex-wrap align-items-center">
+                                        <a href="#" className="tj-btn-primary-2 me-2">
+                                            Live
+                                            <span className="icon_box">
+                                                <i className="fa-regular fa-arrow-right icon_first"></i>
+                                                <i className="fa-regular fa-arrow-right icon_second"></i>
+                                            </span>
+                                        </a>
+                                        <ul className="ul-reset social-icons style-2">
+                                            <li>
+                                                <a target="_blank" href="https://www.linkedin.com/in/shwanees213">
+                                                    <i className="fa-brands fa-github"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="project-wrapper">
-                                <img src="assets/img/project/project-2.png" alt="Images" />
+                            <div className="project-wrapper" style={{ width: "40%" }}>
+
+                                <img src="assets/images/spring-bg.png" alt="Images" />
+                                {/* <img src="assets/img/project/project-2.png" alt="Images" /> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-md-4">
                         <div className="project-content-area featured wow fadeInUp" data-wow-delay=".5s">
                             <div className="project-left-content">
                                 <div className="project_content">
-                                    {/* <span className="subtitle">Social App</span> */}
+                                    <span className="subtitle mb-1">2 of 4</span>
                                     <h3 className="title">Social Media based on business cards</h3>
                                     <ul className="project_tags my-3">
                                         <li><a href="#">Laravel</a></li>
@@ -70,11 +85,11 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4">
                         <div className="project-content-area featured wow fadeInUp" data-wow-delay=".5s">
                             <div className="project-left-content">
                                 <div className="project_content">
-                                    {/* <span className="subtitle">Social App</span> */}
+                                    <span className="subtitle mb-1">3 of 4</span>
                                     <h3 className="title">Farm Tracking App SaaS</h3>
                                     <ul className="project_tags my-3">
                                         <li><a href="#">Laravel</a></li>
@@ -93,11 +108,11 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4">
                         <div className="project-content-area featured wow fadeInUp" data-wow-delay=".5s">
                             <div className="project-left-content">
                                 <div className="project_content">
-                                    {/* <span className="subtitle">Social App</span> */}
+                                    <span className="subtitle mb-1">4 of 4</span>
                                     <h3 className="title">Stadium booking application</h3>
                                     <ul className="project_tags my-3">
                                         <li><a href="#">Laravel</a></li>
@@ -119,6 +134,6 @@ export default function Projects() {
                 </div>
 
             </div>
-        </section>
+        </section >
     )
 }

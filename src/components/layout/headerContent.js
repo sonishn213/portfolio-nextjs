@@ -23,7 +23,21 @@ export default function HeaderContent() {
                             </ul>
                         </nav>
                     </div>
-                    <div className="mobile-menu d-lg-none"></div>
+                    <div className="mobile-menu  mean-container  d-lg-none">
+
+                        <div class="mean-bar">
+                            <nav class="mean-nav">
+                                <nav>
+                                    <ul style={{ display: 'none' }}>
+                                        <li><a href="#works-section">Projects</a></li>
+                                        <li><a href="#experience">Experience</a></li>
+                                        <li><a href="#education">Education</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </nav>
+                        </div>
+                    </div>
                     <div className="header-button">
                         <a href="#" className="tj-btn-primary-2">Resume
                             <span className="icon_box">

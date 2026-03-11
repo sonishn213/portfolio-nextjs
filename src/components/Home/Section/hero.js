@@ -44,7 +44,7 @@ export default function Hero() {
 
                     <div className="about-area">
                         <div className="row">
-                            <div className="col-lg-7">
+                            <div className="col-lg-7 mb-2 mb-md-0">
                                 <div className="about-right-content wow fadeInUp h-100 pb-4" data-wow-delay=".3s">
                                     <div className="about-text">
                                         <h5 className="title">Experience</h5>
@@ -64,8 +64,8 @@ export default function Hero() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5" id="contact">
-                                <div className="about-right-content  wow fadeInUp h-100" data-wow-delay=".5s">
+                            <div className="col-lg-5 mt-4 mt-md-0" id="contact">
+                                <div className="about-right-content  wow fadeInUp h-100 " data-wow-delay=".5s">
                                     <div className="about-text">
                                         <h5 className="title"><i className="fa-solid fa-phone me-2"></i> Mobile</h5>
                                         <p>

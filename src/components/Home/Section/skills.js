@@ -7,8 +7,7 @@ export default function Skills() {
                         <div className="section-header style-2 text-center">
                             <h2 className="section-title wow fadeInUp" data-wow-delay=".3s">My Skills</h2>
                             <p className="wow fadeInUp" data-wow-delay=".4s">
-                                We put your ideas and thus your wishes in the form of a unique web project that inspires you and
-                                you customers.
+                                A curated set of technologies and frameworks reflecting some of the tools I use to build modern applications.
                             </p>
                         </div>
                     </div>
@@ -19,50 +18,51 @@ export default function Skills() {
                             <div className="skill-item wow fadeInUp" data-wow-delay=".3s">
                                 <div className="skill-inner">
                                     <div className="icon-box">
-                                        <img src="assets/img/icons/skills-1.svg" alt="" />
+                                        <img src="assets/images/java.svg" alt="" />
                                     </div>
                                 </div>
-                                <p>HTML</p>
+                                <p>Java</p>
                             </div>
                             <div className="skill-item wow fadeInUp" data-wow-delay=".4s">
                                 <div className="skill-inner">
                                     <div className="icon-box">
-                                        <img src="assets/img/icons/skills-2.svg" alt="" />
+                                        <img src="assets/images/springboot-logo.svg" alt="" />
                                     </div>
                                 </div>
-                                <p>CSS3</p>
+                                <p>Spring boot</p>
                             </div>
                             <div className="skill-item wow fadeInUp" data-wow-delay=".5s">
+                                <div className="skill-inner">
+                                    <div className="icon-box">
+                                        <img src="assets/images/nuxt-js-icon.svg" alt="" />
+                                    </div>
+                                </div>
+                                <p>Nuxt.js</p>
+                            </div>
+                            <div className="skill-item wow fadeInUp" data-wow-delay=".6s">
+                                <div className="skill-inner">
+                                    <div className="icon-box">
+                                        <img src="assets/images/git-icon.svg" alt="" />
+                                    </div>
+                                </div>
+                                <p>Git</p>
+                            </div>
+                            <div className="skill-item wow fadeInUp" data-wow-delay=".7s">
+                                <div className="skill-inner">
+                                    <div className="icon-box">
+                                        <img src="assets/images/docker-icon.svg" alt="" style={{ height: "60px" }} />
+
+                                    </div>
+                                </div>
+                                <p>Docker</p>
+                            </div>
+                            <div className="skill-item wow fadeInUp" data-wow-delay=".8s">
                                 <div className="skill-inner">
                                     <div className="icon-box">
                                         <img src="assets/img/icons/skills-3.svg" alt="" />
                                     </div>
                                 </div>
                                 <p>Javascript</p>
-                            </div>
-                            <div className="skill-item wow fadeInUp" data-wow-delay=".6s">
-                                <div className="skill-inner">
-                                    <div className="icon-box">
-                                        <img src="assets/img/icons/webflow-1.svg" alt="" />
-                                    </div>
-                                </div>
-                                <p>Webflow</p>
-                            </div>
-                            <div className="skill-item wow fadeInUp" data-wow-delay=".7s">
-                                <div className="skill-inner">
-                                    <div className="icon-box">
-                                        <img src="assets/img/icons/react.svg" alt="" />
-                                    </div>
-                                </div>
-                                <p>ReactJS</p>
-                            </div>
-                            <div className="skill-item wow fadeInUp" data-wow-delay=".8s">
-                                <div className="skill-inner">
-                                    <div className="icon-box">
-                                        <img src="assets/img/icons/framer-1.svg" alt="" />
-                                    </div>
-                                </div>
-                                <p>Framer</p>
                             </div>
                         </div>
                     </div>
