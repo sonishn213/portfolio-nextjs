@@ -1,3 +1,5 @@
+import PdfBtn from "@/components/Home/pdfBtn";
+
 export default function HeaderContent() {
     return (
         <div className="container">
@@ -39,12 +41,7 @@ export default function HeaderContent() {
                         </div>
                     </div>
                     <div className="header-button">
-                        <a href="#" className="tj-btn-primary-2">Resume
-                            <span className="icon_box">
-                                <i className="flaticon-download icon_first"></i>
-                                <i className="flaticon-download icon_second"></i>
-                            </span>
-                        </a>
+                        <PdfBtn />
                     </div>
                     <div className="menu-bar d-lg-none">
                         <button>
